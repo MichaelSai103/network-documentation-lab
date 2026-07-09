@@ -1,0 +1,7 @@
+vlan_id,vlan_name,subnet,purpose
+10,Management,192.168.10.0/24,Network device administration
+20,Corporate Users,192.168.20.0/24,Office workstations and laptops
+30,Shared Services,192.168.30.0/24,Shared business systems and internal services
+40,Camera Network,192.168.40.0/24,Site camera and recording devices
+50,Guest Wi-Fi,192.168.50.0/24,Guest internet access
+60,Facilities Devices,192.168.60.0/24,Printers scanners and facility devices

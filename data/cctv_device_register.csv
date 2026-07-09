@@ -1,0 +1,6 @@
+device_id,device_type,location,network_segment,connected_switch,switch_port,power,recording_target,notes
+CAM-WH-01,IP camera,Warehouse Entry,Camera Network,SW-WAREHOUSE-01,Gi1/0/1,PoE,NVR-01,Entry view
+CAM-WH-02,IP camera,Warehouse Packing Area,Camera Network,SW-WAREHOUSE-01,Gi1/0/2,PoE,NVR-01,Packing area view
+CAM-OFF-01,IP camera,Office Reception,Camera Network,SW-OFFICE-01,Gi1/0/7,PoE,NVR-01,Reception view
+CAM-EXT-01,IP camera,External Loading Area,Camera Network,SW-WAREHOUSE-01,Gi1/0/5,PoE,NVR-01,External loading area view
+NVR-01,Network video recorder,Server Room,Shared Services,SW-CORE-01,Gi1/0/4,UPS,N/A,Stores camera recordings

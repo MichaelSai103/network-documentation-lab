@@ -1,0 +1,9 @@
+patch_panel,port,wall_outlet,connected_switch,switch_port,vlan_id,area,notes
+PP-A,01,OFF-01,SW-OFFICE-01,Gi1/0/1,20,Office Desk 1,User workstation
+PP-A,02,OFF-02,SW-OFFICE-01,Gi1/0/2,20,Office Desk 2,User workstation
+PP-A,03,OFF-03,SW-OFFICE-01,Gi1/0/5,20,Office Desk 3,Spare workstation point
+PP-A,04,OFF-04,SW-OFFICE-01,Gi1/0/6,60,Office Printer Area,Printer point
+PP-B,01,WH-01,SW-WAREHOUSE-01,Gi1/0/1,40,Warehouse Entry,Camera point
+PP-B,02,WH-02,SW-WAREHOUSE-01,Gi1/0/2,40,Warehouse Packing Area,Camera point
+PP-B,03,WH-03,SW-WAREHOUSE-01,Gi1/0/3,20/50,Warehouse Ceiling,Wireless access point
+PP-B,04,WH-04,SW-WAREHOUSE-01,Gi1/0/4,60,Warehouse Entry,Facility device point

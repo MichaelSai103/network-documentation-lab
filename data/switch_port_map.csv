@@ -1,0 +1,13 @@
+switch_id,port,connected_to,device_type,vlan_id,location,notes
+SW-CORE-01,Gi1/0/1,EDGE-FW-01,uplink,trunk,Server Room,Uplink to edge router/firewall
+SW-CORE-01,Gi1/0/2,SW-OFFICE-01,uplink,trunk,Server Room,Uplink to office access switch
+SW-CORE-01,Gi1/0/3,SW-WAREHOUSE-01,uplink,trunk,Server Room,Uplink to warehouse access switch
+SW-CORE-01,Gi1/0/4,NVR-01,recording_system,30,Server Room,Static address documented
+SW-OFFICE-01,Gi1/0/1,PP-A-01,workstation,20,Office Floor,Patch panel link
+SW-OFFICE-01,Gi1/0/2,PP-A-02,workstation,20,Office Floor,Patch panel link
+SW-OFFICE-01,Gi1/0/3,AP-OFFICE-01,wireless_ap,20/50,Office Ceiling,Corporate and guest SSIDs
+SW-OFFICE-01,Gi1/0/4,PRN-OFFICE-01,printer,60,Office Floor,Shared printer
+SW-WAREHOUSE-01,Gi1/0/1,CAM-WH-01,camera,40,Warehouse Entry,PoE camera
+SW-WAREHOUSE-01,Gi1/0/2,CAM-WH-02,camera,40,Warehouse Packing Area,PoE camera
+SW-WAREHOUSE-01,Gi1/0/3,AP-WH-01,wireless_ap,20/50,Warehouse Ceiling,Corporate and guest SSIDs
+SW-WAREHOUSE-01,Gi1/0/4,TC-WH-01,facility_device,60,Warehouse Entry,Time clock terminal
